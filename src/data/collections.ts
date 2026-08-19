@@ -34,15 +34,15 @@ export const collections: Collection[] = [
     meta: "9 things I built",
     items: [
       {
-        logo: "/ish.png",
+        logo: "/ish.webp",
         label: "ISH Course",
       },
       {
-        logo: "/RemoIcon.png",
+        logo: "/botplus.webp",
         label: "BotPlus",
       },
       { logo: "/cloudflare.webp", label: "Cloudflare Page" },
-      { logo: "/EasyID.png", label: "EasyID" },
+      { logo: "/easyid.webp", label: "EasyID" },
     ],
   },
   {
