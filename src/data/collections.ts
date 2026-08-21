@@ -21,7 +21,7 @@ export const collections: Collection[] = [
     title: "Travel",
     meta: "14 places",
     items: [
-      "https://picsum.photos/seed/kashmir/900/1200",
+      "https://skillicons.dev/icons?i=react",
       "https://picsum.photos/seed/london/1200/900",
       "https://picsum.photos/seed/paris/1000/1000",
       "https://picsum.photos/seed/tokyo/1200/800",
@@ -31,7 +31,7 @@ export const collections: Collection[] = [
   {
     slug: "projects",
     title: "Projects",
-    meta: "10 things I built",
+    meta: "5 things I built",
     items: [
       {
         logo: "/icons/ish.webp",
@@ -46,12 +46,7 @@ export const collections: Collection[] = [
         label: "Gitzy",
       },
       { logo: "/icons/cloudflare.webp", label: "Cloudflare Page" },
-      { logo: "/icons/ai.webp", label: "AI Roadmap" },
-      { logo: "/icons/setly.webp", label: "Setly" },
       { logo: "/icons/easyid.webp", label: "EasyID" },
-      { logo: "/icons/remoproject.webp", label: "Remo Project" },
-      { logo: "/icons/termux.webp", label: "Termux tutorial" },
-      { logo: "/icons/dotdev.webp", label: ".Dev" },
     ],
   },
   {
