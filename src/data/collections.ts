@@ -21,7 +21,6 @@ export const collections: Collection[] = [
     title: "Travel",
     meta: "14 places",
     items: [
-      "https://skillicons.dev/icons?i=react",
       "https://picsum.photos/seed/london/1200/900",
       "https://picsum.photos/seed/paris/1000/1000",
       "https://picsum.photos/seed/tokyo/1200/800",
