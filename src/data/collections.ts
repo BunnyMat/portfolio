@@ -31,7 +31,7 @@ export const collections: Collection[] = [
   {
     slug: "projects",
     title: "Projects",
-    meta: "5 things I built",
+    meta: "10 things I built",
     items: [
       {
         logo: "/icons/ish.webp",
