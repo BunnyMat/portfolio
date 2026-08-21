@@ -46,7 +46,12 @@ export const collections: Collection[] = [
         label: "Gitzy",
       },
       { logo: "/icons/cloudflare.webp", label: "Cloudflare Page" },
+      { logo: "/icons/ai.webp", label: "AI Roadmap" },
+      { logo: "/icons/setly.webp", label: "Setly" },
       { logo: "/icons/easyid.webp", label: "EasyID" },
+      { logo: "/icons/remoproject.webp", label: "Remo Project" },
+      { logo: "/icons/termux.webp", label: "Termux tutorial" },
+      { logo: "/icons/dotdev.webp", label: ".Dev" },
     ],
   },
   {
