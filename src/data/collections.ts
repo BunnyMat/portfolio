@@ -22,7 +22,7 @@ export const collections: Collection[] = [
     meta: "some places",
     items: [
       {
-        image: "/icons/travel/isfahan01.webp",
+        logo: "/icons/travel/isfahan01.webp",
         label: "Isfahan",
       },
       {
@@ -118,7 +118,10 @@ export const collections: Collection[] = [
     title: "Bookmarks",
     meta: "A pile of tabs",
     items: [
-      "https://picsum.photos/seed/delta/900/1200",
+       {
+      src: "https://picsum.photos/seed/delta/900/1200",
+      alt: "A way in Mountains."
+       }, 
       "https://picsum.photos/seed/epsilon/1200/900",
       "https://picsum.photos/seed/zeta/1000/1000",
       "https://picsum.photos/seed/eta/1200/800",
