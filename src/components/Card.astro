@@ -16,7 +16,7 @@ const { card } = Astro.props;
   {
     card.kind === "photo" && (
       <figure class="photo shadow">
-        <img src={card.src} alt="" loading="lazy" />
+        <img src={card.src} alt={card.label ?? ""} loading="lazy" />
       </figure>
     )
   }
