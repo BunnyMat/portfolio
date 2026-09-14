@@ -119,14 +119,29 @@ export const collections: Collection[] = [
     meta: "A pile of tabs",
     items: [
        {
-      src: "https://picsum.photos/seed/delta/900/1200",
-      alt: "A way in Mountains."
+         src: "https://picsum.photos/seed/delta/900/1200",
+         alt: "A way in Mountains."
        }, 
-      "https://picsum.photos/seed/epsilon/1200/900",
-      "https://picsum.photos/seed/zeta/1000/1000",
-      "https://picsum.photos/seed/eta/1200/800",
-      "https://picsum.photos/seed/theta/900/1200",
-      "https://picsum.photos/seed/iota/1200/900",
+       {
+         src: "https://picsum.photos/seed/epsilon/1200/900",
+         alt: "View of a Lighthouse from top of a hill."
+       },
+       {
+         src: "https://picsum.photos/seed/zeta/1000/1000",
+         alt: "A vintage building's emergency stairs."
+       },
+       {
+         src: "https://picsum.photos/seed/eta/1200/800",
+         alt: "Houses in hot and dry areas."
+       },
+       {
+         src: "https://picsum.photos/seed/theta/900/1200",
+         alt: "Sunset warf."
+       },
+       {
+         src: "https://picsum.photos/seed/iota/1200/900",
+         alt: "Red boat in wavy sea."
+       },
     ],
   },
 ];
