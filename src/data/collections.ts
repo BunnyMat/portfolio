@@ -19,7 +19,7 @@ export const collections: Collection[] = [
   {
     slug: "travel",
     title: "Travel",
-    meta: "14 places",
+    meta: "some places",
     items: [
       "https://picsum.photos/seed/kashmir/900/1200",
       "https://picsum.photos/seed/london/1200/900",
@@ -31,7 +31,7 @@ export const collections: Collection[] = [
   {
     slug: "projects",
     title: "Projects",
-    meta: "5 things I built",
+    meta: "things I built",
     items: [
       {
         logo: "/icons/ish.webp",
@@ -52,7 +52,7 @@ export const collections: Collection[] = [
   {
     slug: "writing",
     title: "Writing",
-    meta: "23 posts",
+    meta: "my posts",
     items: [
       {
         note: "How tanstack start became my default framework",
