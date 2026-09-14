@@ -15,7 +15,7 @@
 
 @theme {
   --font-sans:
-    "SF Compact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Modam", "SF Compact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
 
   /* Stronger than the built-in curves - these have the punch UI needs. */
