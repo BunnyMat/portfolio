@@ -128,27 +128,27 @@ export const collections: Collection[] = [
     items: [
        {
          src: "https://picsum.photos/seed/delta/900/1200",
-         alt: "A way in Mountains."
+         label: "A way in Mountains."
        }, 
        {
          src: "https://picsum.photos/seed/epsilon/1200/900",
-         alt: "View of a Lighthouse from top of a hill."
+         label: "View of a Lighthouse from top of a hill."
        },
        {
          src: "https://picsum.photos/seed/zeta/1000/1000",
-         alt: "A vintage building's emergency stairs."
+         label: "A vintage building's emergency stairs."
        },
        {
          src: "https://picsum.photos/seed/eta/1200/800",
-         alt: "Houses in hot and dry areas."
+         label: "Houses in hot and dry areas."
        },
        {
          src: "https://picsum.photos/seed/theta/900/1200",
-         alt: "Sunset warf."
+         label: "Sunset warf."
        },
        {
          src: "https://picsum.photos/seed/iota/1200/900",
-         alt: "Red boat in wavy sea."
+         label: "Red boat in wavy sea."
        },
     ],
   },
