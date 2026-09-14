@@ -1,15 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import About from "../components/About.astro";
-import Folder from "../components/Folder.astro";
-import { collections } from "../data/collections";
+import Home from "../components/Home.astro";
 ---
 
 <Layout>
-  <main class="space-y-16 py-8">
-    <About />
-    <div class="grid grid-cols-2 gap-6">
-      {collections.map((collection) => <Folder collection={collection} />)}
-    </div>
-  </main>
+  <Home />
 </Layout>
