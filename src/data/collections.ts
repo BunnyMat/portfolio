@@ -111,6 +111,14 @@ export const collections: Collection[] = [
           "Once the model clicks, the constraint feels like a gift. Systems built this way have nothing to leak, nothing to drain, and nothing to restart at 3am.",
         ],
       },
+      {
+        note: "یادگرفتن هوش مصنوعی",
+        body: [
+          "The mental model shift is small but real: your code doesn't live somewhere, it lives everywhere, and it starts cold in under a millisecond.",
+          "That kills a whole category of pattern - the warm in-memory cache, the connection pool, the singleton that assumes it survives between requests - and replaces it with something honest: state lives in storage, compute is disposable.",
+          "Once the model clicks, the constraint feels like a gift. Systems built this way have nothing to leak, nothing to drain, and nothing to restart at 3am.",
+        ],
+      },
     ],
   },
   {
