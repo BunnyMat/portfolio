@@ -22,7 +22,7 @@ export const collections: Collection[] = [
     meta: "some places",
     items: [
       {
-        logo: "/icons/travel/isfahan01.webp",
+        image: "/icons/travel/isfahan01.webp",
         label: "Isfahan",
       },
       {
