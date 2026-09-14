@@ -17,15 +17,38 @@ export interface Collection {
 
 export const collections: Collection[] = [
   {
-    slug: "travel",
-    title: "Travel",
+    slug: "iran",
+    title: "IRAN",
     meta: "some places",
     items: [
-      "https://picsum.photos/seed/kashmir/900/1200",
-      "https://picsum.photos/seed/london/1200/900",
-      "https://picsum.photos/seed/paris/1000/1000",
-      "https://picsum.photos/seed/tokyo/1200/800",
-      "https://picsum.photos/seed/lisbon/900/1200",
+      {
+        logo: "/icons/travel/isfahan01.webp",
+        label: "Isfahan",
+      },
+      {
+        logo: "/icons/travel/isfahan02.webp",
+        label: "Isfahan",
+      }, 
+      {
+        logo: "/icons/travel/isfahan03.webp",
+        label: "Isfahan",
+      }, 
+      {
+        logo: "/icons/travel/shiraz01.webp",
+        label: "Shiraz",   
+      },
+      {
+        logo: "/icons/travel/shiraz02.webp", 
+        label: "Shiraz",  
+      }, 
+      {
+        logo: "/icons/travel/shiraz03.webp", 
+        label: "Shiraz",  
+      },  
+      {
+        logo: "/icons/travel/tehran01.webp",  
+        label: "Tehran", 
+      }, 
     ],
   },
   {
