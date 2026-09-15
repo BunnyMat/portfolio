@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
-@font-face {font-family: "Modam";
-  src: url("/assets/fonts/Modam-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
+@font-face {
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-Thin.woff2") format("woff2");
+  font-weight: 100;
   font-style: normal;
   unicode-range:
     U+0600-06FF,
@@ -13,8 +14,8 @@
 }
 
 @font-face {
-  font-family: "Modam";
-  src: url("/assets/fonts/Modam-Light.ttf") format("truetype");
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   unicode-range:
@@ -26,8 +27,8 @@
 }
 
 @font-face {
-  font-family: "Modam";
-  src: url("/assets/fonts/Modam-Regular.ttf") format("truetype");
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   unicode-range:
@@ -39,8 +40,8 @@
 }
 
 @font-face {
-  font-family: "Modam";
-  src: url("/assets/fonts/Modam-Medium.ttf") format("truetype");
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   unicode-range:
@@ -52,8 +53,8 @@
 }
 
 @font-face {
-  font-family: "Modam";
-  src: url("/assets/fonts/Modam-SemiBold.ttf") format("truetype");
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   unicode-range:
@@ -65,8 +66,8 @@
 }
 
 @font-face {
-  font-family: "Modam";
-  src: url("/assets/fonts/Modam-Bold.ttf") format("truetype");
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   unicode-range:
@@ -78,9 +79,22 @@
 }
 
 @font-face {
-  font-family: "Modam";
-  src: url("/assets/fonts/Modam-ExtraBold.ttf") format("truetype");
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-ExtraBlack.woff2") format("woff2");
   font-weight: 800;
+  font-style: normal;
+  unicode-range:
+    U+0600-06FF,
+    U+0750-077F,
+    U+08A0-08FF,
+    U+FB50-FDFF,
+    U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/assets/fonts/Ravi-Black.woff2") format("woff2");
+  font-weight: 900;
   font-style: normal;
   unicode-range:
     U+0600-06FF,
@@ -92,7 +106,7 @@
 
 @theme {
   --font-sans:
-    "Modam", "SF Compact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Ravi", "SF Compact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
 
   /* Stronger than the built-in curves - these have the punch UI needs. */
